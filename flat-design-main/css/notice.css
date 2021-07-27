@@ -1,0 +1,111 @@
+.contents{
+    padding:50px 12px;
+}
+.contents h2,.contents p{
+    margin-bottom:30px;
+    font-family:'Noto Sans KR';
+    font-weight:700;
+    font-size:24px;
+    color:#333333;
+    text-align:center;
+}
+.contents p{
+    font-weight:500;
+    font-size:18px;
+    text-align:justify
+}
+.notice-list{
+    margin-bottom:30px;
+}
+.notice-list ul{
+    border-top:1px solid #333333;
+    border-bottom:1px solid #333333;
+}
+.notice-list li{
+    border-bottom:1px solid #cccccc;
+}
+.notice-list div{
+    float:left;
+    width:66px;
+    height:31px;
+    margin-right:24px;
+    font-family:'Noto Sans KR';
+    font-weight:300;
+    font-size:16px;
+    color:#333333;
+    text-align:center;
+    line-height:31px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.notice-list div:nth-child(1){
+    width:156px;
+    text-align:left;
+}
+.notice-list div:nth-child(3){
+    margin-right:0;
+}
+.notice-list .notice-tit{
+    border-bottom:1px solid #333333;
+}
+.notice-tit div{
+    height:41px;
+    font-family:'Noto Sans KR';
+    font-weight:500;
+    font-size:20px;
+    color:#333333;
+    text-align:center;
+    line-height:41px;
+}
+.notice-tit div:nth-child(1){
+    text-align:center;
+}
+.contents>.notice-num{
+    margin-bottom:8px;
+}
+.contents>.notice-write{
+    margin-bottom:0;
+}
+.notice-num,.notice-write{
+    width:157px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.num,.btn-search,.btn-write{
+    width:23px;
+    height:23px;
+    margin-right:8px;
+    border:#333333 1px solid;
+    text-align:center;
+    float:left;
+    font-family:'Noto Sans KR';
+    font-weight:400;
+    font-size:14px;
+    color:#333333;
+}
+.num01{
+    background-color:#2ecc71;
+}
+.num05{
+    margin-right:0;
+}
+.btn-search{
+    width:89px;
+    border-color:#ff0101;
+}
+.btn-search:hover{
+    background-color:#ff0101;
+    color:#ffffff;
+}
+.btn-write{
+    width:56px;
+    margin-right:0;
+    border-color:#ff0101;
+    background-color:#ff0101;
+    color:#ffffff;
+}
+.btn-write:hover{
+    background-color:transparent;
+    color:#333333;
+}

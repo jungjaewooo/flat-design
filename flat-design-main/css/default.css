@@ -1,0 +1,32 @@
+.contents{
+    padding:50px 12px;
+}
+.contents>div{
+    margin-bottom:50px;
+}
+.contents>.flat-future{
+    margin-bottom:0;
+}
+.contents h2,.contents h3,content p{
+    margin-bottom:30px;
+    font-family:'Noto Sans KR';
+    font-weight:700;
+    font-size:24px;
+    color:#333333;
+    text-align:center;
+}
+.contents h3{
+    font-size:20px;
+}
+.contents .img-box{
+    margin:0 auto 16px auto;
+    width:246px;
+}
+.contents .img100{
+    width:100px;
+}
+.contents p{
+    font-weight:500;
+    font-size:18px;
+    text-align:justify
+}
